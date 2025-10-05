@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import logoImage from "@assets/Gemini_Generated_Image_b88tub88tub88tub_1759648053876.png";
 
 export default function Footer() {
   return (
@@ -7,10 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-md flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">SS</span>
-              </div>
-              <span className="font-serif font-bold text-lg">SS Solutions</span>
+              <img src={logoImage} alt="Global North Overseas" className="h-10 w-auto" />
             </div>
             <p className="text-sm text-muted-foreground">
               Your trusted partner for international education. Helping students achieve their dreams of studying abroad since 2010.

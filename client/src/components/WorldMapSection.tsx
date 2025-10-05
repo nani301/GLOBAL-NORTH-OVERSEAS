@@ -6,7 +6,7 @@ export default function WorldMapSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="font-serif font-bold text-3xl lg:text-5xl mb-4">
-            <span className="text-primary">SS Solutions</span> Abroad
+            <span className="text-primary">Global North Overseas</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Your trusted partner for international education across the globe

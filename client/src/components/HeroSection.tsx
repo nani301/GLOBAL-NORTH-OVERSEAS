@@ -12,7 +12,7 @@ export default function HeroSection() {
               <span className="text-primary">STUDYING ABROAD</span>
               <br />
               into reality with{" "}
-              <span className="text-primary">SS SOLUTIONS</span>
+              <span className="text-primary">GLOBAL NORTH OVERSEAS</span>
             </h1>
             <p className="text-lg text-muted-foreground">
               Expert guidance for your international education journey. We help students achieve their dreams of studying at top universities worldwide.
