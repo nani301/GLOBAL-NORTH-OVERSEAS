@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -9,6 +10,7 @@ export default function Header() {
 
   const menuItems = [
     { label: "Home", href: "/" },
+    { label: "Search", href: "/search" }, // Added Search link
     { label: "About Us", href: "#about" },
     { label: "Services", href: "#services" },
     { label: "Immigration", href: "#immigration" },
@@ -71,7 +73,7 @@ export default function Header() {
         <div className="md:hidden border-t border-border bg-card">
           <div className="px-4 py-4 space-y-2">
             {menuItems.map((item) => (
-              <a
+               <Link
                 key={item.label}
                 href={item.href}
                 className="block px-3 py-2 text-sm hover-elevate rounded-md"
@@ -79,7 +81,7 @@ export default function Header() {
                 data-testid={`link-mobile-${item.label.toLowerCase().replace(/\s+/g, '-')}`}
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
